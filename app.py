@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request, jsonify
 import json
 import os
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Load rules from JSON file
 def load_rules():

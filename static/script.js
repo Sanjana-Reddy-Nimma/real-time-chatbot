@@ -15,12 +15,13 @@ function sendMessage() {
   showTyping();
 
   // Send message to Flask backend
-  fetch("/get_response", {
+  fetch("https://<RENDER-BACKEND-URL>/get_response", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
-    body: new URLSearchParams({ user_input: message }),
+    mode: "cors",
+    body: "msg=" + encodeURIComponent(message),
   })
     .then((response) => response.json())
     .then((data) => {
