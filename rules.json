@@ -1,0 +1,83 @@
+{
+  "prevention": {
+    "keywords": ["prevent", "avoid", "safe", "protect", "flu", "cold"],
+    "secondary": ["infection", "virus", "seasonal", "illness", "sick", "vaccine", "mask", "hand", "hygiene"],
+    "responses": [
+      "Wash hands frequently, wear masks in crowds, and get vaccinated to prevent seasonal illnesses (WHO guidelines).",
+      "Maintain social distance, stay home when sick, and disinfect surfaces regularly to avoid infections (CDC recommendations).",
+      "Practice good respiratory hygiene and avoid touching your face to reduce illness risk (MoHFW advice)."
+    ]
+  },
+  "immunity": {
+    "keywords": ["immunity", "immune", "boost", "strengthen"],
+    "secondary": ["food", "eat", "diet", "nutrition", "fruit", "vegetable", "vitamin", "nutrient", "yogurt", "garlic"],
+    "responses": [
+      "Eat citrus fruits, garlic, leafy greens, and yogurt for natural immune support (WHO nutrition guidelines).",
+      "Focus on vitamin C-rich foods like oranges and bell peppers, plus probiotics from yogurt (CDC recommendations).",
+      "A balanced diet with fruits, vegetables, nuts, and whole grains strengthens immunity (MoHFW advice)."
+    ]
+  },
+  "symptoms": {
+    "keywords": ["symptom", "sign", "feel", "experiencing", "have", "suffering"],
+    "secondary": ["flu", "cold", "fever", "cough", "throat", "headache", "body", "fatigue", "runny", "sneezing"],
+    "responses": [
+      "Flu symptoms: sudden high fever, severe body aches, dry cough, fatigue. Colds: gradual runny nose, mild cough (CDC).",
+      "Watch for high fever >103°F, difficulty breathing, or persistent vomiting - seek medical help immediately (WHO).",
+      "Common cold: runny nose, sneezing, mild fatigue. Flu: sudden fever, body aches, chills (MoHFW)."
+    ]
+  },
+  "remedies": {
+    "keywords": ["remedy", "treatment", "cure", "help", "relief", "soothe", "natural", "home"],
+    "secondary": ["cold", "cough", "throat", "fever", "congestion", "headache", "honey", "ginger", "salt", "steam"],
+    "responses": [
+      "For sore throat: warm salt water gargles, honey in tea. For congestion: steam inhalation (WHO home remedies).",
+      "Rest, stay hydrated, and use honey for cough relief. Ginger tea helps nausea (CDC guidelines).",
+      "Cool compress for fever, steam for congestion, and plenty of fluids for mild symptoms (MoHFW)."
+    ]
+  },
+  "doctor": {
+    "keywords": ["doctor", "hospital", "medical", "emergency", "serious", "clinic", "physician", "specialist"],
+    "secondary": ["when", "should", "need", "must", "urgent", "immediately", "breathing", "chest", "confusion", "dehydration"],
+    "responses": [
+      "Seek immediate care for difficulty breathing, persistent chest pain, confusion, or high fever >103°F (CDC emergency signs).",
+      "Call emergency services for bluish lips, severe dehydration, or loss of consciousness (WHO guidelines).",
+      "See a doctor within 24-48 hours for persistent cough with mucus, fever with rash, or worsening symptoms (MoHFW)."
+    ]
+  },
+  "hygiene": {
+    "keywords": ["hygiene", "clean", "wash", "sanitize", "disinfect", "germs", "bacteria"],
+    "secondary": ["hand", "mask", "surface", "personal", "respiratory", "soap", "elbow", "ventilation", "shower"],
+    "responses": [
+      "Wash hands for 20 seconds with soap, cover coughs with elbow, disinfect surfaces daily (WHO hygiene).",
+      "Use hand sanitizer when soap unavailable, wear masks in crowds, ensure good ventilation (CDC).",
+      "Avoid touching face, shower daily, don't share personal items like towels (MoHFW)."
+    ]
+  },
+  "lifestyle": {
+    "keywords": ["lifestyle", "exercise", "sleep", "stress", "habits", "routine", "wellness"],
+    "secondary": ["physical", "mental", "rest", "activity", "relaxation", "walking", "breathing", "sunlight", "hydration"],
+    "responses": [
+      "Get 7-9 hours sleep, exercise regularly, manage stress, stay hydrated for strong immunity (WHO).",
+      "Practice deep breathing, maintain social connections, get daily sunlight for vitamin D (CDC).",
+      "Aim for moderate exercise like walking, eat nutritious meals, consistent sleep schedule (MoHFW)."
+    ]
+  },
+  "vaccination": {
+    "keywords": ["vaccine", "vaccination", "immunization", "shot", "jab", "inject"],
+    "secondary": ["flu", "covid", "pneumonia", "schedule", "annual", "booster", "risk", "group", "safe", "effective"],
+    "responses": [
+      "Get annual flu vaccine in September-October to reduce flu risk by 40-60% (CDC recommendations).",
+      "Vaccines are safe and effective, with mild side effects like soreness that resolve quickly (WHO).",
+      "High-risk groups: seniors, pregnant women, chronic conditions should prioritize vaccination (MoHFW)."
+    ]
+  },
+  "fallback": {
+    "keywords": [],
+    "secondary": [],
+    "responses": [
+      "I'm here to help with immunity and health questions. Try asking about prevention, symptoms, or remedies.",
+      "For general health advice, consult WHO, CDC, or MoHFW guidelines. What specific topic interests you?",
+      "I specialize in immunity-related topics. Please rephrase your question or ask about vaccines, hygiene, etc."
+    ]
+  }
+}

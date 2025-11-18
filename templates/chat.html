@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immunity & Seasonal Illness Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container interaction-page">
+        <div class="chat-container" id="chatContainer">
+            <div class="bot-message message">
+                <div class="bubble">
+                    👋 Hello! I'm your health assistant. I can help you with:
+                    <br>• Prevention tips for seasonal illnesses
+                    <br>• Immunity-boosting foods
+                    <br>• Common symptoms information
+                    <br>• Safe home remedies
+                    <br>• When to seek medical attention
+                    <br><br>How can I help you today?
+                </div>
+            </div>
+        </div>
+
+        <div class="typing-indicator" id="typingIndicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="suggestions">
+            <h3>Quick Questions:</h3>
+            <div class="suggestion-chips">
+                <div class="chip" onclick="sendSuggestion('How to prevent flu?')">Flu Prevention</div>
+                <div class="chip" onclick="sendSuggestion('What foods boost immunity?')">Immunity Foods</div>
+                <div class="chip" onclick="sendSuggestion('What are flu symptoms?')">Flu Symptoms</div>
+                <div class="chip" onclick="sendSuggestion('Home remedies for cold')">Home Remedies</div>
+                <div class="chip" onclick="sendSuggestion('When to see a doctor?')">Medical Help</div>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Type your health question..." 
+                   onkeypress="if(event.key === 'Enter') sendMessage()">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
