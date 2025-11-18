@@ -15,7 +15,7 @@ function sendMessage() {
   showTyping();
 
   // Send message to Flask backend
-  fetch("https://<RENDER-BACKEND-URL>/get_response", {
+  fetch("https://real-time-chatbot-0paj.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
